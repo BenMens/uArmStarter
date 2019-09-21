@@ -18,12 +18,12 @@ myRobot.connect()
 myRobot.mode(0)   # Set mode to Normal
 
 wait = 0
-speed = 12000
+speed = 100
 numCarts = 7
 
 time.sleep(1)
 
-myRobot.goto(  200, 0, 100, 600)
+myRobot.goto(  200, 0, 100, 10)
 
 time.sleep(5)
 
